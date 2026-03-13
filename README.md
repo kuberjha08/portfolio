@@ -112,13 +112,13 @@ http://localhost:3000
 
 # 📷 Screenshots
 
-![Modern UI/UX](/.github/images/img1.png)
+![Modern UI/UX](/.github/images/img_main.png)
 
-![Showcase your skills](/.github/images/img2.png)
+![Showcase your skills](/.github/images/img_main.png)
 
-![Built with React & Next.js](/.github/images/img3.png)
+![Built with React & Next.js](/.github/images/img_main.png)
 
-![Showcase your projects](/.github/images/img4.png)
+![Showcase your projects](/.github/images/img_main.png)
 
 ---
 
