@@ -1,6 +1,6 @@
 {
-  "name": "space-portfolio",
-  "version": "1.0.1",
+  "name": "kuber-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +9,11 @@
     "lint": "eslint ."
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Kuber",
+    "email": "kuber@paulmerchants.com",
+    "url": "https://github.com/kuberjha08"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "My personal full stack Next.js 14 space portfolio showcasing my work as a Full-Stack Developer at Paul Merchants Limited.",
   "keywords": [
     "reactjs",
     "nextjs",
@@ -48,23 +48,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/kuber/portfolio"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://github.com/kuber/portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/kuber/portfolio/issues",
+    "email": "kuber98jha@paulmerchants.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@react-three/drei": "^10.7.7",
