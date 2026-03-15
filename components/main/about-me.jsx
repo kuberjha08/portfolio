@@ -17,6 +17,14 @@ import {
 } from "@/lib/motion";
 
 export const AboutMe = () => {
+
+  const handleContactClick = () => {
+  if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    window.location.href = "tel:+918708574843";
+  } else {
+    window.location.href = "mailto:kuber98jha@gmail.com";
+  }
+};
   return (
     <section
       id="about-me"
@@ -177,12 +185,12 @@ export const AboutMe = () => {
 
             {/* CTA Button */}
             <motion.div variants={slideInFromLeft(1)} className="mt-10">
-              <a
-                href="#contact"
+              <button
+                onClick={handleContactClick}
                 className="py-3 px-8 button-primary text-center text-white cursor-pointer rounded-lg inline-block hover:scale-105 transition-transform duration-300"
               >
                 Get In Touch
-              </a>
+              </button>
             </motion.div>
           </motion.div>
         </div>

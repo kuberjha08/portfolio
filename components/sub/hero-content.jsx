@@ -12,6 +12,13 @@ import {
 } from "@/lib/motion";
 
 export const HeroContent = () => {
+  const handleContactClick = () => {
+  if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    window.location.href = "tel:+918708574843";
+  } else {
+    window.location.href = "mailto:kuber98jha@gmail.com";
+  }
+};
   return (
     <motion.div
       initial="hidden"
@@ -54,7 +61,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn more
+          <button onClick={handleContactClick}>Learn more</button>
         </motion.a>
       </div>
 
