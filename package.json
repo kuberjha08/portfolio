@@ -10,10 +10,10 @@
   },
   "author": {
     "name": "Kuber",
-    "email": "kuber@paulmerchants.com",
+    "email": "kuber98jha@gmail.com",
     "url": "https://github.com/kuberjha08"
   },
-  "description": "My personal full stack Next.js 14 space portfolio showcasing my work as a Full-Stack Developer at Paul Merchants Limited.",
+  "description": "My personal full stack Next.js 14 space portfolio showcasing my work as a Full-Stack Developer.",
   "keywords": [
     "reactjs",
     "nextjs",
@@ -53,7 +53,7 @@
   "homepage": "https://github.com/kuber/portfolio#readme",
   "bugs": {
     "url": "https://github.com/kuber/portfolio/issues",
-    "email": "kuber98jha@paulmerchants.com"
+    "email": "kuber98jha@gmail.com"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
